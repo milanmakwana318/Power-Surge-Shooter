@@ -1,0 +1,52 @@
+body {
+    height: 90vh;
+    width: 100vw;
+    
+    position: relative;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+#canvas {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E5E5E5;
+}
+
+.buttonDiv {
+    height: 100px;
+    width: 50rem;
+    background-color: #3BB175;
+    position: absolute;
+    left: 50%;
+    bottom: -15%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player {
+    height: 50px;
+    width: 50px;
+    background-color: #EE0101;
+    z-index: 10;
+    position: absolute;
+    
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+button{
+    height: 60px;
+    width: 75px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 2px 5px 10px 5px;
+}
+
